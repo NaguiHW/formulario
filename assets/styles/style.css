@@ -17,7 +17,7 @@ body {
   height: 100%;
 }
 
-.left-column {
+.column-style {
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -33,4 +33,25 @@ body {
 .left-column p {
   color: white;
   font-size: 20px;
+}
+
+.right-column {
+  align-items: center;
+}
+
+.right-column > button {
+  width: 80%;
+  margin: 15px 0;
+  padding: 16px 0;
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.right-column > button:active {
+  background-color: hsl(248, 45%, 35%);
 }
