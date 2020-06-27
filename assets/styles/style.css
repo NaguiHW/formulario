@@ -11,7 +11,7 @@ body {
 
 .container {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   justify-content: space-around;
   height: 100%;
@@ -90,3 +90,15 @@ body {
   background-color: hsl(154, 59%, 51%);
   box-shadow: 0 4px hsl(154, 60%, 38%);
 }
+
+.right-column form p {
+  font-size: 12px;
+  color: hsl(246, 25%, 77%);
+}
+
+.right-column form p a {
+  color:  hsl(0, 100%, 74%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
