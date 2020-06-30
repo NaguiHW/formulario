@@ -18,7 +18,7 @@ Kalib Hackin<br>
 naguihw@gmail.com
 
 ## Live Demo
-https://naguihw.github.io/formulario/
+<a href="https://naguihw.github.io/formulario/" target="_blank">Click Here</a>
 
 ## Screenshots
 ![Desktop View](screenshots/Form-Desktop.png?raw=true "Desktop View")
